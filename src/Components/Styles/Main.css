@@ -1,0 +1,63 @@
+main > img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+main > * {
+    margin-top: 0.8rem;
+    text-align: center;
+}
+
+main > h1 {
+    margin-bottom: auto;
+}
+
+main > h3 {
+    margin: auto;
+}
+
+main > .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.convert-to-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-blue {
+    background-color: rgb(74, 135, 217);
+    color: black;
+}
+
+.back-white {
+    background-color: white;
+    color: black;
+}
+
+.convert-to-button > p {
+    margin: 0;
+    padding-left: 5px;
+}
+
+a.nostyle {
+    text-decoration: unset;
+    color: inherit;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
